@@ -3,20 +3,20 @@ x-stoplight:
   id: kppnzsj5ocnbd
 info:
   title: Openweathermap API
-  version: '2.5'
+  version: '3.0'
   summary: Get the current weather
   description: "One Call API 3.0 is one of the most advanced APIs, allowing you to build your own\r\nweather forecast system with high accuracy and display a large \r\nnumber of environmental parameters. Data is available in JSON, XML, \r\nor HTML format. **Note**: This sample Swagger file covers the \r\n`current` endpoint only from the OpenWeatherMap API. \r\n<br/><br/> **Note**: All parameters are optional, but you must \r\nselect at least one parameter. Calling the API by city ID (using \r\nthe `id` parameter) will provide the most precise location results.\r\n"
   contact:
     name: Support
     url: 'https://openweathermap.org/api'
-    email: alr2002@bigmir.net
+    email: info@openweathermap.org
   termsOfService: 'https://openweathermap.org/terms'
   license:
     name: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
     url: 'https://creativecommons.org/licenses/by-sa/4.0/'
 servers:
   - url: 'https://api.openweathermap.org/data/3.0'
-    description: prod
+    description:
 paths:
   /onecall:
     get:
